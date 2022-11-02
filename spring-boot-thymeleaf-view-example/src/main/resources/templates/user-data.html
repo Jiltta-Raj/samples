@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en" xmlns:th="https://thymeleaf.org">    
+<table style="color:blue;border:2px solid black;text-align: center">    
+<tr>    
+<td><h4>User Name: </h4></td>    
+<td><h4 th:text="${user.name}"></h4></td>    
+</tr>
+<tr>    
+<td><h4>Designation: </h4></td>    
+<td><h4 th:text="${user.job}"></h4></td>    
+</tr>
+<tr>    
+<td><h4>Phone number: </h4></td>    
+<td><h4 th:text="${user.mob}"></h4></td>    
+</tr>
+<tr>    
+<td><h4>Age: </h4></td>    
+<td><h4 th:text="${user.age}"></h4></td>    
+</tr>
+<tr>    
+<td><h4>Email ID: </h4></td>    
+<td><h4 th:text="${user.email}"></h4></td>    
+</tr>    
+</table>    
+</html>  
