@@ -1,0 +1,21 @@
+<div class="login-container">
+  <img class="film" src="../../assets/images/film.png" alt="">
+  <div class="logo">Online Movies</div>
+  <div class="desc">Watch movies from all over the world. No downloads, no temporary file storage, no ads, and no problems. You can watch any movie online, anytime, anywhere. The selection of free online movies is quite large, and most of the movies can be watched for free, provided you can handle the quality.
+
+  </div>
+  <div class="login-form">
+    <div class="form-group">
+      <label for="uname">Username</label>
+      <input type="text" name="uname" class="form-control" [(ngModel)]="username">
+    </div>
+    <div class="form-group">
+      <label for="pword">Password</label>
+      <input type="text" name="pword" class="form-control" [(ngModel)]="password">
+    </div>
+    <div class="btn-container">
+      <div class="error">{{ errorMsg }}</div>
+      <button class="btn btn-dark" (click)="login()">Login</button>
+    </div>
+  </div>
+</div>
